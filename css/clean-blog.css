@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
 a {
   color: #333333;
@@ -49,26 +49,26 @@ hr.small {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 500;
 }
 .navbar-custom .navbar-header .navbar-toggle {
   color: #777777;
-  font-weight: 800;
+  font-weight: 500;
   text-transform: uppercase;
   font-size: 12px;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 1px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .navbar-custom {
     background: transparent;
     border-bottom: 1px solid transparent;
@@ -97,7 +97,7 @@ hr.small {
     color: #0085A1;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 500px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
@@ -160,7 +160,7 @@ hr.small {
   padding: 100px 0 50px;
   color: white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
@@ -185,7 +185,7 @@ hr.small {
   font-weight: 300;
   margin: 10px 0 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
@@ -214,7 +214,7 @@ hr.small {
 .intro-header .post-heading .meta a {
   color: white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .intro-header .post-heading h1 {
     font-size: 55px;
   }
@@ -255,7 +255,7 @@ hr.small {
   color: #0085A1;
   text-decoration: underline;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .post-preview > a > .post-title {
     font-size: 36px;
   }
@@ -407,5 +407,5 @@ body {
 }
 
 .head-img {
-  width: 30%;
+  width: 40%;
 }
