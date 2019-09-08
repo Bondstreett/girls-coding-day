@@ -405,3 +405,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+.head-img {
+  width: 30%;
+}
